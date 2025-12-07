@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Manifest Page Saver",
+  "version": "1.0.0",
+  "description": "Save everything to chrome.local",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Manifest Page Saver"
+  }
+}
+
+
