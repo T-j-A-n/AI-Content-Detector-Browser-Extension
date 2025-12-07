@@ -60,3 +60,8 @@ Select Load unpacked.
 Select the project folder.
 
 Visit a news website to trigger analysis.
+
+# Example 
+## This is an example screenshot of the desired working of the browser extention
+
+![Project Screenshot](Manifest/Sample.png)
